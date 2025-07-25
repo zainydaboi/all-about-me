@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Zaine | Black Boys Code</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Fixed Navigation Bar -->
+  <nav class="nav" aria-label="Main">
+    <div class="nav-inner">
+      <div class="brand">
+        <!-- Replace with your logo image if you have one -->
+        <img src="download-removebg-preview (1).png" alt="black boys code logo" class="logo" />
+        <span class="site-title">Zaine<span class="dot">.</span></span>
+      </div>
+
+      <button class="nav-toggle" aria-controls="navMenu" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <ul id="navMenu" class="nav-links">
+        <li><a href="#title" class="nav-link">Home</a></li>
+        <li><a href="#hero" class="nav-link">Intro</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#scratch" class="nav-link">Scratch</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Title Slide -->
+  <header id="title" class="section title-slide" role="banner">
+    <div class="decor stripes-left"></div>
+    <div class="content-wrapper center">
+      <div class="title-block">
+        <h1 class="big-title">
+          <span class="line1">Welcome to</span>
+          <span class="line2">My Coding Space</span>
+        </h1>
+        <p class="subtitle">
+          Built with curiosity, creativity, and <span class="accent">Black Boys Code</span> energy.
+        </p>
+        <a href="#hero" class="btn primary big">Enter</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero" aria-labelledby="hero-heading">
+    <div class="decor hero-circle">
+      <div class="mini-bar"></div>
+    </div>
+    <div class="decor dots-right"></div>
+
+    <div class="content-wrapper split">
+      <div class="text-col">
+        <h2 id="hero-heading" class="hero-heading">
+          Hi there, I'm <span class="highlight">Zaine</span>,<br>
+          a coder from <span class="accent">black boys code</span>.<br>
+          <span class="break">Nice to meet you.</span>
+        </h2>
+        <p class="lead">
+          Welcome, don’t be shy! Since you’re here already, you might as well look around —
+          <em>mi casa es su casa</em>. <span aria-hidden="true">😊</span>
+        </p>
+        <div class="actions">
+          <a href="#about" class="btn pill">About Me</a>
+          <a href="#scratch" class="btn pill alt">Scratch</a>
+        </div>
+      </div>
+
+      <figure class="image-col">
+        <!-- Replace with your cutout portrait -->
+        <img src="1-removebg-preview.png" alt="Photo of Zaine" class="portrait" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about" aria-labelledby="about-heading">
+    <div class="decor stripes-left tall"></div>
+    <div class="content-wrapper narrow">
+      <h2 id="about-heading" class="section-title">About</h2>
+      <div class="about-text">
+        <p>
+          My name is <strong>Zaine</strong>. I’m <strong>14</strong>; my birthday is <strong>December 23, 2010</strong>.
+          I go to STJ and I love basketball, i have two siblings my sisters name is chelsea and my brothers name zenith and i love coding on Scratch!
+        </p>
+        <p>
+          <strong>An interesting fact</strong> about me is that I was born and raised in China and came here when I was 10 — and yes, I'm fluent in Mandarin.
+        </p>
+        <p>
+          <strong>I love video games</strong>, especially sports games. Right now the ones I always play are basketball 2K24 and FIFA.
+        </p>
+        <p>
+          <strong>Scratch is my favourite</strong> computer mini game platform.
+          I like it so much I actually created 3 games I hope you enjoy!
+        </p>
+      </div>
+      <div class="about-actions">
+        <a href="#scratch" class="btn primary">See My Scratch Games</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scratch Games Gallery -->
+  <section id="scratch" class="section scratch" aria-labelledby="scratch-heading">
+    <div class="decor dots-left"></div>
+    <div class="content-wrapper">
+      <div class="section-head">
+        <h2 id="scratch-heading" class="section-title">
+          Scratch <span class="outline">Games Gallery</span>
+        </h2>
+        <img src="download-removebg-preview.png" class="scratch-logo" alt="Scratch mascot">
+      </div>
+      <p class="gallery-intro">
+        Here are some of my projects I made on Scratch. Click a card to visit — more to come! 🎮
+      </p>
+
+      <div class="games-grid">
+        <!-- Each card currently links to the same page; change hrefs to individual game project URLs later -->
+        <a href="https://scratch.mit.edu/projects/815439426/" target="_blank" rel="noopener" class="game-card">
+          <div class="card-inner">
+            <span class="ribbon">NEW</span>
+            <h3>Game One</h3>
+            <p class="desc">Action & reflex mini‑game.</p>
+          </div>
+        </a>
+        <a href="https://scratch.mit.edu/projects/1196002303/" target="_blank" rel="noopener" class="game-card alt">
+          <div class="card-inner">
+            <span class="ribbon alt">FUN</span>
+            <h3>Game Two</h3>
+            <p class="desc">Sports themed challenge.</p>
+          </div>
+        </a>
+        <a href="https://scratch.mit.edu/projects/1195438063/" target="_blank" rel="noopener" class="game-card">
+          <div class="card-inner">
+            <span class="ribbon">WOW</span>
+            <h3>Game Three</h3>
+            <p class="desc">Creative dinosaur idea.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="note">
+        * i love making these scratch mini games. hope you enjoy them!
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="section contact" aria-labelledby="contact-heading">
+    <div class="content-wrapper narrow">
+      <h2 id="contact-heading" class="section-title">Contact Me</h2>
+      <p class="contact-tagline">Let’s build, code, or talk basketball & creativity.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:royalty.shopv@gmail.com">royalty.shopv@gmail.com</a></li>
+        <li><strong>Scratch:</strong> <a target="_blank" rel="noopener" href="https://scratch.mit.edu/mystuff/">supreme_zainee1</a></li>
+        <li><strong>Username/Tag:</strong> asaa_royalty6787</li>
+      </ul>
+      <div class="footer-small">
+        © <span id="year"></span> Zaine. Built with passion & practice.
+      </div>
+      <a href="#title" class="back-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

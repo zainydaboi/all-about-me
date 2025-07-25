@@ -1,2 +1,3 @@
-# all-about-me
-this is a website that will tell you all will want to know about me (zaine onyekwulunne) along with intresting facts and it will also take you some of the games i have created
+Welcome to All About Me, a personal website that introduces you to everything you’d like to know about Zaine Onyekwulunne. Here, you’ll discover interesting facts about me — my passions, hobbies, and journey as a young coder.
+
+The site also features a gallery of some of the fun and creative games I’ve built using Scratch, so you can explore and play them directly.
