@@ -53,6 +53,7 @@ body {
   padding: .5rem 1.25rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -82,7 +83,6 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
-  margin-left: auto;
 }
 
 .nav-link {
@@ -217,6 +217,7 @@ body {
   font-size: 1.2rem;
   color: var(--text-light);
   margin-bottom: 2rem;
+   text-align: center;
 }
 
 .title-block {
@@ -661,4 +662,14 @@ body {
   clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
+}
+
+.contact-tagline {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-light);  /* Optional if you're using themed text color */
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
